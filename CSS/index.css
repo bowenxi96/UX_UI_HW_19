@@ -1,0 +1,249 @@
+body{
+    color:#22263F; ;
+   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    color: #22263F;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline 2px;
+    text-underline-offset:  5px;
+    color: #22263F;
+}
+
+.projectsImages:hover{
+    
+    transform: scale(1.1); transition: .4s;
+}
+
+
+.projectsImages:hover{
+  filter: drop-shadow(1px 1px 8px #BEBEC0);
+
+
+}
+
+
+
+
+
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+    font-size: 19px;
+
+}
+.asLogo{
+    width: 200px;
+    padding: 1%;
+    padding-left: 2%;
+    padding-top: 4px;
+    font-size: 38px;
+    margin-left: 20px;
+
+}
+nav.inline-block{
+    width: 400px;
+    position: absolute;
+    top: 36px;
+    right: 1px;
+}
+
+.mainArea{
+    margin: auto;
+    width: 77%;
+    margin-top: 6%;
+
+
+}
+
+footer{
+    width: 77%;
+    margin: auto;
+    margin-bottom: 150px;
+    
+}
+.slogan{
+   text-align: center;
+   font-weight: 400;
+   font-size: 20px;
+   color: black;
+}
+
+h3{
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .04em;
+    text-transform: none;
+    font-size: 36px;
+}
+h4{
+    font-weight: 750;
+    font-style: normal;
+    letter-spacing: .05em;
+    text-transform: none;
+    font-size: 22px;
+}
+
+.firstPartIntro{
+    width: 60%;
+
+}
+h4.intro{
+    letter-spacing: 1.8px;
+    line-height: 40px;
+    word-spacing: 2px;
+    width: 600px;
+    
+    
+}
+
+p.intro{
+    letter-spacing: 1.2px;
+    line-height: 16px;
+    
+    width: 600px;
+    word-spacing: 1.2px;
+}
+
+
+h3.intro{
+    width: 300px;
+}
+
+h2{
+    font-size: 42px;
+}
+
+.inline-blockSocial{
+    display: inline-block;
+   
+}
+
+.projectsWhole{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 40px;
+    row-gap: 80px;
+    
+    justify-content: center;
+}
+
+
+
+.inline-blockSocialUl{
+    display: flex;
+    justify-content: space-evenly;
+    width: 10%;
+    margin: auto;
+    padding-right: 36px; ;
+    padding-top: 25px;
+    
+}
+.socialLogo{
+    max-width: 28px;
+    max-height: 28px;
+}
+
+.projectsIntro{
+    font-size: 18px;
+    letter-spacing: .05em;
+    line-height: 140%;
+    width: 95%;
+    margin-top: -10px;
+
+}
+
+#claup{
+
+    position: relative;
+    top: 2px;
+}
+
+img.projectsImages{
+    width: 35vw;
+    height: 23vw;
+
+
+}
+.projects{
+    width: min-content;
+    
+}
+
+.projectsTopic{
+    margin-top: 30px;
+}
+
+.caseStudies{
+margin: auto 50%;
+    
+}
+
+@media only screen and (max-width:920px){
+
+    nav.inline-block{
+        
+        margin-top: 65px;
+        
+    }
+
+    .inline-block{
+        
+        padding-right: 20px;
+        
+    }
+
+    .firstPartIntro{
+        width: 60%;
+    
+    }
+    h4.intro{
+        letter-spacing: 1.8px;
+        line-height: 40px;
+        word-spacing: 2px;
+        width: 180%;
+        
+        
+    }
+    
+    p.intro{
+        letter-spacing: 1.2px;
+        line-height: 16px;
+        line-height: 1.6;
+        width: 180%;
+        word-spacing: 1.2px;
+    }
+    
+    .projectsWhole{
+    
+        display: grid;
+        grid-template-columns: 1fr;
+        
+        row-gap: 50px;
+        
+        justify-content: center;
+       
+    }
+
+    .projects{
+        width: 70vw;
+        margin: auto;
+        
+    }
+    img.projectsImages{
+        width: 70vw;
+        height: 45vw;
+    
+    
+    }
+   
+
+
+}
