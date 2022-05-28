@@ -65,7 +65,7 @@ nav.inline-block{
 footer{
     width: 77%;
     margin: auto;
-    margin-bottom: 150px;
+    
     
 }
 .slogan{
@@ -113,7 +113,7 @@ p.intro{
 
 
 h3.intro{
-    width: 300px;
+    width: 100%;
 }
 
 h2{
@@ -212,6 +212,10 @@ margin: auto 50%;
         
         
     }
+
+    h3.intro{
+        width: 80vw;
+    }
     
     p.intro{
         letter-spacing: 1.2px;
@@ -247,3 +251,54 @@ margin: auto 50%;
 
 
 }
+
+#topBtn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background: #DBDBDB;
+    color: #68686B;
+    border: none;
+    cursor:pointer;
+    border-radius: 100px;
+    display: none;
+
+}
+
+
+/*
+.scrollUp{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5px;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: .5s;
+    background: crimson;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+
+}
+
+.scrollUp.active{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity:1;
+    transform:translateY(-55px);
+
+}
+*/
