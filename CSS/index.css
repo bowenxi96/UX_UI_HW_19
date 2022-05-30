@@ -15,6 +15,16 @@ a:hover{
     color: #22263F;
 }
 
+a.forLogoAnimated{
+    color: #22263F; 
+    text-decoration: none;
+}
+
+a.forLogoAnimated:hover{
+    color: #22263F; 
+    text-decoration: none;
+}
+
 .projectsImages:hover{
     
     transform: scale(1.1); transition: .4s;
