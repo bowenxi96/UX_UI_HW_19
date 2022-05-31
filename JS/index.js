@@ -29,3 +29,19 @@ $("#topBtn").click(function(){
 
 });
 
+
+
+LottieInteractivity.create({
+    mode:"scroll",
+    player: "#firstLottie",
+    container: "#block-yui_3_17_2_1_1653944671761_10292",
+    actions: [
+        {
+            visibility:[0,1],
+            type: "seek",
+            frames: [-160, 160]
+        }
+    ]
+});
+
+

@@ -277,6 +277,32 @@ margin: auto 50%;
     display: none;
 
 }
+#topBtn:hover{
+
+    transform:translate(0px,-10px);
+      transition: .2s;
+      
+    }
+
+#firstLottie{
+
+    /* position: absolute;
+    top: 10vw;
+    right: 12vw;
+
+    width: 30vw; 
+    height: auto;
+    */
+
+    width: 400px;
+    height: auto;
+  
+}
+
+.introPlusLottie{
+    display: flex;
+    flex-direction: row;
+}
 
 
 /*
@@ -312,3 +338,9 @@ margin: auto 50%;
 
 }
 */
+@media only screen and (max-width:1080px){
+.introPlusLottie{
+    display: flex;
+    flex-direction: column;
+}
+}
